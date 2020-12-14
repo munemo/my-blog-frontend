@@ -4,20 +4,13 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
   const [isOpen, setOpen] = useState(false);
   return (
-    <nav
-      className="navbar is-primary"
-      role="navigation"
-      aria-label="main navigation"
-    >
+    <nav className="navbar is-primary" role="navigation" aria-label="main navigation">
       <div className="container">
         <div className="navbar-brand">
-          <a
-            role="button"
-            className={`navbar-burger burger ${isOpen && "is-active"}`}
+          <a role="button" className={`navbar-burger burger ${isOpen && "is-active"}`}
             aria-label="menu"
             aria-expanded="false"
-            onClick={() => setOpen(!isOpen)}
-          >
+            onClick={() => setOpen(!isOpen)} >
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
@@ -29,12 +22,16 @@ const Navbar = () => {
             <NavLink className="navbar-item" activeClassName="is-active" to="/">
               Home
             </NavLink>
-            <NavLink className="navbar-item" activeClassName="is-active to" to="react">
+            <NavLink
+              className="navbar-item"
+              activeClassName="is-active to"
+              to="react"
+            >
               React
             </NavLink>
           </div>
-          </div>
-          </div>
+        </div>
+      </div>
     </nav>
   );
 };
