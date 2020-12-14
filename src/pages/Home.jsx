@@ -16,10 +16,8 @@ const Home = () => {
                 height="345"
               />
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
-                facilis at ipsum! Laborum ex ea placeat facere debitis rerum,
-                necessitatibus reprehenderit nesciunt ipsum deserunt ratione
-                alias dicta? Necessitatibus, exercitationem accusamus.
+                Hi, I'm John. I'm new to web development and i'm using this blog to write and refelect about various 
+                 topics. I hope you will find it interesting.
               </p>
             </div>
           </div>
