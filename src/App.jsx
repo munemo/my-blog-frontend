@@ -3,24 +3,25 @@ import Home from "./pages/Home";
 import Reakt from "./pages/Reakt";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import { Route,BrowserRouter, Switch } from "react-router-dom";
+import { Route, BrowserRouter, Switch } from "react-router-dom";
+
 
 
 const App =()=> {
   return (
     <>
       <BrowserRouter>
-        <Navbar />
-        <div className="container mt-2" style={{ marginTop: 40 }}>
+        <Navbar/>
+        <div>
           <Switch>
             <Route exact path="/">
               <Home />
             </Route>
             <Route path="/react">
-              <Reakt/>
+              <Reakt />
             </Route>
           </Switch>
-          <Footer/>
+          <Footer />
         </div>
       </BrowserRouter>
     </>
