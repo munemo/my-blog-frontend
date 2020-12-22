@@ -6,7 +6,7 @@ const Navbbar = () => {
 
   return (
     <div>
-      <Navbar bg="black" variant="dark" sticky="top" fixed="top">
+      <Navbar bg="black" variant="dark" fixed="top">
         <Navbar.Brand>
           <img
             src="./logo.png"
@@ -27,7 +27,10 @@ const Navbbar = () => {
           </NavDropdown.Item>
           <NavDropdown.Item style={{ color: "#5299d3" }} href="/react">
             React
-            <NavDropdown.Item style={{ color: "#5299d3" }} href="/react#introduction">
+            <NavDropdown.Item
+              style={{ color: "#5299d3" }}
+              href="/react#introduction"
+            >
               Introduction
             </NavDropdown.Item>
             <NavDropdown.Item
@@ -42,17 +45,29 @@ const Navbbar = () => {
             <NavDropdown.Item style={{ color: "#5299d3" }} href="/react#setup">
               Set-up a React Native project
             </NavDropdown.Item>{" "}
-            <NavDropdown.Item style={{ color: "#5299d3" }} href="/react#components">
+            <NavDropdown.Item
+              style={{ color: "#5299d3" }}
+              href="/react#components"
+            >
               Components
             </NavDropdown.Item>{" "}
-            <NavDropdown.Item style={{ color: "#5299d3" }} href="/react#routing">
+            <NavDropdown.Item
+              style={{ color: "#5299d3" }}
+              href="/react#routing"
+            >
               Routing
             </NavDropdown.Item>
-            <NavDropdown.Item style={{ color: "#5299d3" }} href="/react#rendering">
+            <NavDropdown.Item
+              style={{ color: "#5299d3" }}
+              href="/react#rendering"
+            >
               Rendering
             </NavDropdown.Item>
             <NavDropdown.Item style={{ color: "#5299d3" }} href="/react#state">
               State
+            </NavDropdown.Item>
+            <NavDropdown.Item style={{ color: "#5299d3" }} href="/react#refs">
+              References
             </NavDropdown.Item>
           </NavDropdown.Item>
         </NavDropdown>

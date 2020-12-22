@@ -1,28 +1,16 @@
 import React from "react";
-import john from "../img/john.jpg";
+import john3 from "../img/john3.jpg";
+import '../css/style.css';
+
+
 
 const Home = () => {
   return (
-    <div>
-      <section>
-       
-          <div class="row">
-            <div class="col-lg-4 mx-auto">
-              <img
-                class="img-fluid"
-                src={john}
-                alt=""
-                width="460"
-                height="345"
-              />
-              <p class="text-secondary">
-                Hi, I'm John. I'm new to web development and i'm using this blog
-                to write and refelect about various topics. I hope you will find
-                it interesting.
-              </p>
-            </div>
-          </div>
-         </section>
+    <div class="container">
+      <section class="centered">
+        <img src={john3} alt=".." class="rounded" />
+        <p class="text-secondary">Hi, im John. Welcome to my blog! I hope you will like it.</p>
+      </section>
     </div>
   );
 }
